@@ -8,7 +8,10 @@ wget --no-check-certificate -c -O CN.txt https://raw.githubusercontent.com/Loyal
 echo "/ip firewall address-list"
 
 for net in $(cat CN.txt) ; do
-  echo "add list=CN address=$net comment=CN-IP"
+  # 检查是否是IPv4地址（包含.且不包含:）
+  if [[ $net == *.* && $net != *:* ]]; then
+    echo "add list=CN address=$net comment=CN-IP"
+  fi
 done
 
 } > ../CN.rsc
@@ -21,10 +24,13 @@ wget --no-check-certificate -c -O JP.txt https://raw.githubusercontent.com/Loyal
 echo "/ip firewall address-list"
 
 for net in $(cat JP.txt) ; do
-  echo "add list=JP address=$net comment=JP-IP"
+  # 检查是否是IPv4地址（包含.且不包含:）
+  if [[ $net == *.* && $net != *:* ]]; then
+    echo "add list=JP address=$net comment=JP-IP"
+  fi
 done
 
 } > ../JP.rsc
 
 cd ..
-rm -rf ./pbr
+rm -rf ./pbr 
