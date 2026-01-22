@@ -214,7 +214,6 @@ add list=CN address=27.192.0.0/11 comment=CN-IP
 add list=CN address=27.224.0.0/14 comment=CN-IP
 add list=CN address=31.42.125.0/24 comment=CN-IP
 add list=CN address=31.56.66.0/24 comment=CN-IP
-add list=CN address=31.57.10.0/24 comment=CN-IP
 add list=CN address=31.57.248.0/24 comment=CN-IP
 add list=CN address=31.133.128.0/18 comment=CN-IP
 add list=CN address=36.0.0.0/22 comment=CN-IP
@@ -800,14 +799,13 @@ add list=CN address=44.31.81.0/24 comment=CN-IP
 add list=CN address=44.31.96.0/24 comment=CN-IP
 add list=CN address=44.31.216.0/24 comment=CN-IP
 add list=CN address=44.31.234.0/24 comment=CN-IP
+add list=CN address=44.32.103.0/24 comment=CN-IP
 add list=CN address=44.32.143.0/24 comment=CN-IP
 add list=CN address=44.32.188.0/24 comment=CN-IP
 add list=CN address=44.32.191.0/24 comment=CN-IP
 add list=CN address=44.32.192.0/24 comment=CN-IP
 add list=CN address=45.9.11.0/24 comment=CN-IP
-add list=CN address=45.40.192.0/20 comment=CN-IP
-add list=CN address=45.40.208.0/21 comment=CN-IP
-add list=CN address=45.40.224.0/19 comment=CN-IP
+add list=CN address=45.40.192.0/18 comment=CN-IP
 add list=CN address=45.62.168.0/24 comment=CN-IP
 add list=CN address=45.65.16.0/20 comment=CN-IP
 add list=CN address=45.82.239.0/24 comment=CN-IP
@@ -1100,7 +1098,6 @@ add list=CN address=49.120.0.0/14 comment=CN-IP
 add list=CN address=49.128.0.0/24 comment=CN-IP
 add list=CN address=49.128.2.0/23 comment=CN-IP
 add list=CN address=49.128.4.0/22 comment=CN-IP
-add list=CN address=49.128.220.0/24 comment=CN-IP
 add list=CN address=49.128.223.0/24 comment=CN-IP
 add list=CN address=49.140.0.0/15 comment=CN-IP
 add list=CN address=49.152.0.0/14 comment=CN-IP
@@ -1273,7 +1270,6 @@ add list=CN address=81.173.28.0/24 comment=CN-IP
 add list=CN address=82.39.249.0/24 comment=CN-IP
 add list=CN address=82.152.105.0/24 comment=CN-IP
 add list=CN address=82.156.0.0/15 comment=CN-IP
-add list=CN address=84.54.2.0/23 comment=CN-IP
 add list=CN address=85.237.205.0/24 comment=CN-IP
 add list=CN address=87.254.207.0/24 comment=CN-IP
 add list=CN address=93.113.109.8/29 comment=CN-IP
@@ -2497,7 +2493,6 @@ add list=CN address=103.135.160.0/21 comment=CN-IP
 add list=CN address=103.135.176.0/22 comment=CN-IP
 add list=CN address=103.135.184.0/22 comment=CN-IP
 add list=CN address=103.135.192.0/21 comment=CN-IP
-add list=CN address=103.135.209.0/24 comment=CN-IP
 add list=CN address=103.135.236.0/22 comment=CN-IP
 add list=CN address=103.136.128.0/22 comment=CN-IP
 add list=CN address=103.136.232.0/22 comment=CN-IP
@@ -2597,7 +2592,6 @@ add list=CN address=103.151.4.0/24 comment=CN-IP
 add list=CN address=103.151.142.0/23 comment=CN-IP
 add list=CN address=103.151.148.0/23 comment=CN-IP
 add list=CN address=103.151.158.0/23 comment=CN-IP
-add list=CN address=103.151.178.0/24 comment=CN-IP
 add list=CN address=103.151.216.0/23 comment=CN-IP
 add list=CN address=103.151.228.0/23 comment=CN-IP
 add list=CN address=103.152.28.0/22 comment=CN-IP
@@ -5046,11 +5040,7 @@ add list=CN address=139.198.66.0/23 comment=CN-IP
 add list=CN address=139.198.68.0/22 comment=CN-IP
 add list=CN address=139.198.72.0/21 comment=CN-IP
 add list=CN address=139.198.80.0/20 comment=CN-IP
-add list=CN address=139.198.96.0/20 comment=CN-IP
-add list=CN address=139.198.114.0/23 comment=CN-IP
-add list=CN address=139.198.116.0/22 comment=CN-IP
-add list=CN address=139.198.122.0/23 comment=CN-IP
-add list=CN address=139.198.124.0/22 comment=CN-IP
+add list=CN address=139.198.96.0/19 comment=CN-IP
 add list=CN address=139.198.128.0/17 comment=CN-IP
 add list=CN address=139.199.0.0/16 comment=CN-IP
 add list=CN address=139.200.0.0/13 comment=CN-IP
@@ -5181,7 +5171,6 @@ add list=CN address=153.99.0.0/16 comment=CN-IP
 add list=CN address=153.101.0.0/16 comment=CN-IP
 add list=CN address=153.118.0.0/15 comment=CN-IP
 add list=CN address=154.8.128.0/17 comment=CN-IP
-add list=CN address=154.19.43.0/24 comment=CN-IP
 add list=CN address=154.72.42.0/24 comment=CN-IP
 add list=CN address=154.72.44.0/24 comment=CN-IP
 add list=CN address=154.72.47.0/24 comment=CN-IP
@@ -5197,7 +5186,6 @@ add list=CN address=154.208.160.0/21 comment=CN-IP
 add list=CN address=154.208.172.0/23 comment=CN-IP
 add list=CN address=154.223.179.0/24 comment=CN-IP
 add list=CN address=155.117.164.0/24 comment=CN-IP
-add list=CN address=155.117.188.0/24 comment=CN-IP
 add list=CN address=155.126.176.0/23 comment=CN-IP
 add list=CN address=156.59.202.0/23 comment=CN-IP
 add list=CN address=156.59.204.0/23 comment=CN-IP
@@ -5326,10 +5314,7 @@ add list=CN address=161.248.42.0/23 comment=CN-IP
 add list=CN address=161.248.84.0/23 comment=CN-IP
 add list=CN address=161.248.92.0/23 comment=CN-IP
 add list=CN address=161.248.136.0/24 comment=CN-IP
-add list=CN address=162.14.0.0/20 comment=CN-IP
-add list=CN address=162.14.16.0/21 comment=CN-IP
-add list=CN address=162.14.26.0/23 comment=CN-IP
-add list=CN address=162.14.28.0/22 comment=CN-IP
+add list=CN address=162.14.0.0/19 comment=CN-IP
 add list=CN address=162.14.32.0/20 comment=CN-IP
 add list=CN address=162.14.52.0/22 comment=CN-IP
 add list=CN address=162.14.56.0/21 comment=CN-IP
