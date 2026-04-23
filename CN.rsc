@@ -6865,6 +6865,7 @@ add list=CN address=203.217.164.0/22 comment=CN-IP
 add list=CN address=203.223.21.0/24 comment=CN-IP
 add list=CN address=204.55.160.0/24 comment=CN-IP
 add list=CN address=204.79.135.24/32 comment=CN-IP
+add list=CN address=206.109.75.0/24 comment=CN-IP
 add list=CN address=210.2.0.0/23 comment=CN-IP
 add list=CN address=210.2.2.0/24 comment=CN-IP
 add list=CN address=210.2.4.0/22 comment=CN-IP
