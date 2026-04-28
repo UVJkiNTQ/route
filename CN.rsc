@@ -5838,15 +5838,6 @@ add list=CN address=202.174.124.0/22 comment=CN-IP
 add list=CN address=202.176.224.0/19 comment=CN-IP
 add list=CN address=202.179.160.0/20 comment=CN-IP
 add list=CN address=202.179.240.0/21 comment=CN-IP
-add list=CN address=202.179.248.0/24 comment=CN-IP
-add list=CN address=202.179.249.0/26 comment=CN-IP
-add list=CN address=202.179.249.64/28 comment=CN-IP
-add list=CN address=202.179.249.80/30 comment=CN-IP
-add list=CN address=202.179.249.88/29 comment=CN-IP
-add list=CN address=202.179.249.96/27 comment=CN-IP
-add list=CN address=202.179.249.128/25 comment=CN-IP
-add list=CN address=202.179.250.0/23 comment=CN-IP
-add list=CN address=202.179.252.0/22 comment=CN-IP
 add list=CN address=202.180.128.0/19 comment=CN-IP
 add list=CN address=202.180.208.0/21 comment=CN-IP
 add list=CN address=202.181.8.0/22 comment=CN-IP
@@ -6865,7 +6856,6 @@ add list=CN address=203.217.164.0/22 comment=CN-IP
 add list=CN address=203.223.21.0/24 comment=CN-IP
 add list=CN address=204.55.160.0/24 comment=CN-IP
 add list=CN address=204.79.135.24/32 comment=CN-IP
-add list=CN address=206.109.75.0/24 comment=CN-IP
 add list=CN address=210.2.0.0/23 comment=CN-IP
 add list=CN address=210.2.2.0/24 comment=CN-IP
 add list=CN address=210.2.4.0/22 comment=CN-IP
