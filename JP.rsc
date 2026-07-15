@@ -326,6 +326,8 @@ add list=JP address=16.15.56.0/22 comment=JP-IP
 add list=JP address=16.76.0.0/16 comment=JP-IP
 add list=JP address=16.208.0.0/15 comment=JP-IP
 add list=JP address=16.214.32.0/22 comment=JP-IP
+add list=JP address=16.216.216.0/24 comment=JP-IP
+add list=JP address=16.217.217.0/24 comment=JP-IP
 add list=JP address=17.30.24.0/22 comment=JP-IP
 add list=JP address=17.75.125.0/24 comment=JP-IP
 add list=JP address=17.81.10.0/23 comment=JP-IP
@@ -810,7 +812,6 @@ add list=JP address=23.106.128.0/20 comment=JP-IP
 add list=JP address=23.106.148.0/22 comment=JP-IP
 add list=JP address=23.106.224.0/21 comment=JP-IP
 add list=JP address=23.128.228.0/24 comment=JP-IP
-add list=JP address=23.129.12.0/24 comment=JP-IP
 add list=JP address=23.129.140.0/24 comment=JP-IP
 add list=JP address=23.131.24.0/24 comment=JP-IP
 add list=JP address=23.131.136.0/24 comment=JP-IP
@@ -1851,6 +1852,7 @@ add list=JP address=44.32.191.48/28 comment=JP-IP
 add list=JP address=44.32.192.8/32 comment=JP-IP
 add list=JP address=44.63.21.64/28 comment=JP-IP
 add list=JP address=44.63.36.0/27 comment=JP-IP
+add list=JP address=44.63.66.192/26 comment=JP-IP
 add list=JP address=44.129.0.0/16 comment=JP-IP
 add list=JP address=45.8.112.0/22 comment=JP-IP
 add list=JP address=45.8.220.0/22 comment=JP-IP
@@ -1873,8 +1875,6 @@ add list=JP address=45.32.32.0/19 comment=JP-IP
 add list=JP address=45.32.248.0/21 comment=JP-IP
 add list=JP address=45.33.161.0/24 comment=JP-IP
 add list=JP address=45.39.98.0/24 comment=JP-IP
-add list=JP address=45.39.107.0/24 comment=JP-IP
-add list=JP address=45.39.108.0/24 comment=JP-IP
 add list=JP address=45.39.146.0/24 comment=JP-IP
 add list=JP address=45.39.151.0/24 comment=JP-IP
 add list=JP address=45.39.152.0/24 comment=JP-IP
@@ -2882,6 +2882,9 @@ add list=JP address=63.220.204.206/31 comment=JP-IP
 add list=JP address=63.220.204.248/31 comment=JP-IP
 add list=JP address=63.220.204.252/30 comment=JP-IP
 add list=JP address=63.220.205.4/31 comment=JP-IP
+add list=JP address=63.220.205.88/30 comment=JP-IP
+add list=JP address=63.220.205.96/31 comment=JP-IP
+add list=JP address=63.220.205.104/29 comment=JP-IP
 add list=JP address=63.221.192.24/29 comment=JP-IP
 add list=JP address=63.221.192.40/29 comment=JP-IP
 add list=JP address=63.221.192.88/29 comment=JP-IP
@@ -3057,7 +3060,8 @@ add list=JP address=64.235.250.144/29 comment=JP-IP
 add list=JP address=64.235.250.176/29 comment=JP-IP
 add list=JP address=64.235.250.184/30 comment=JP-IP
 add list=JP address=64.235.250.200/29 comment=JP-IP
-add list=JP address=64.235.250.224/27 comment=JP-IP
+add list=JP address=64.235.250.224/29 comment=JP-IP
+add list=JP address=64.235.250.240/28 comment=JP-IP
 add list=JP address=64.235.254.80/29 comment=JP-IP
 add list=JP address=64.235.255.16/29 comment=JP-IP
 add list=JP address=64.235.255.192/29 comment=JP-IP
@@ -3101,7 +3105,12 @@ add list=JP address=66.93.30.0/24 comment=JP-IP
 add list=JP address=66.93.184.0/21 comment=JP-IP
 add list=JP address=66.95.214.0/24 comment=JP-IP
 add list=JP address=66.95.221.0/24 comment=JP-IP
-add list=JP address=66.103.19.0/26 comment=JP-IP
+add list=JP address=66.103.19.0/31 comment=JP-IP
+add list=JP address=66.103.19.3/32 comment=JP-IP
+add list=JP address=66.103.19.4/30 comment=JP-IP
+add list=JP address=66.103.19.8/29 comment=JP-IP
+add list=JP address=66.103.19.16/28 comment=JP-IP
+add list=JP address=66.103.19.32/27 comment=JP-IP
 add list=JP address=66.103.19.64/27 comment=JP-IP
 add list=JP address=66.103.19.96/30 comment=JP-IP
 add list=JP address=66.103.19.100/31 comment=JP-IP
@@ -3625,6 +3634,8 @@ add list=JP address=82.47.202.0/23 comment=JP-IP
 add list=JP address=82.47.204.0/24 comment=JP-IP
 add list=JP address=82.47.207.0/24 comment=JP-IP
 add list=JP address=82.47.219.0/24 comment=JP-IP
+add list=JP address=82.47.244.0/24 comment=JP-IP
+add list=JP address=82.47.246.0/23 comment=JP-IP
 add list=JP address=82.102.28.0/24 comment=JP-IP
 add list=JP address=82.108.58.0/23 comment=JP-IP
 add list=JP address=82.108.74.0/23 comment=JP-IP
@@ -5646,7 +5657,6 @@ add list=JP address=104.30.164.250/32 comment=JP-IP
 add list=JP address=104.30.165.3/32 comment=JP-IP
 add list=JP address=104.30.165.23/32 comment=JP-IP
 add list=JP address=104.30.165.37/32 comment=JP-IP
-add list=JP address=104.30.165.48/32 comment=JP-IP
 add list=JP address=104.30.165.88/32 comment=JP-IP
 add list=JP address=104.30.165.97/32 comment=JP-IP
 add list=JP address=104.30.165.103/32 comment=JP-IP
@@ -5753,6 +5763,9 @@ add list=JP address=104.30.174.72/32 comment=JP-IP
 add list=JP address=104.30.174.130/31 comment=JP-IP
 add list=JP address=104.30.174.132/30 comment=JP-IP
 add list=JP address=104.30.174.136/31 comment=JP-IP
+add list=JP address=104.30.174.150/32 comment=JP-IP
+add list=JP address=104.30.174.160/32 comment=JP-IP
+add list=JP address=104.30.174.198/32 comment=JP-IP
 add list=JP address=104.30.176.14/32 comment=JP-IP
 add list=JP address=104.30.176.50/32 comment=JP-IP
 add list=JP address=104.30.176.61/32 comment=JP-IP
@@ -5790,6 +5803,7 @@ add list=JP address=104.30.177.163/32 comment=JP-IP
 add list=JP address=104.30.177.174/32 comment=JP-IP
 add list=JP address=104.30.177.198/32 comment=JP-IP
 add list=JP address=104.30.177.204/32 comment=JP-IP
+add list=JP address=104.30.177.207/32 comment=JP-IP
 add list=JP address=104.30.177.242/32 comment=JP-IP
 add list=JP address=104.30.177.244/32 comment=JP-IP
 add list=JP address=104.30.177.254/32 comment=JP-IP
@@ -5839,6 +5853,7 @@ add list=JP address=104.30.179.169/32 comment=JP-IP
 add list=JP address=104.30.179.178/32 comment=JP-IP
 add list=JP address=104.30.179.181/32 comment=JP-IP
 add list=JP address=104.30.179.182/32 comment=JP-IP
+add list=JP address=104.30.179.202/32 comment=JP-IP
 add list=JP address=104.41.160.0/19 comment=JP-IP
 add list=JP address=104.44.88.224/27 comment=JP-IP
 add list=JP address=104.44.91.224/27 comment=JP-IP
@@ -6638,6 +6653,8 @@ add list=JP address=117.74.0.0/18 comment=JP-IP
 add list=JP address=117.102.168.0/21 comment=JP-IP
 add list=JP address=117.102.176.0/20 comment=JP-IP
 add list=JP address=117.102.192.0/19 comment=JP-IP
+add list=JP address=117.103.122.10/32 comment=JP-IP
+add list=JP address=117.103.126.0/23 comment=JP-IP
 add list=JP address=117.103.160.0/21 comment=JP-IP
 add list=JP address=117.103.176.0/20 comment=JP-IP
 add list=JP address=117.104.0.0/17 comment=JP-IP
@@ -6721,6 +6738,7 @@ add list=JP address=119.27.56.0/21 comment=JP-IP
 add list=JP address=119.30.8.0/21 comment=JP-IP
 add list=JP address=119.30.192.0/18 comment=JP-IP
 add list=JP address=119.31.128.0/19 comment=JP-IP
+add list=JP address=119.31.166.202/32 comment=JP-IP
 add list=JP address=119.31.254.0/24 comment=JP-IP
 add list=JP address=119.42.35.0/24 comment=JP-IP
 add list=JP address=119.47.0.0/18 comment=JP-IP
@@ -7420,6 +7438,7 @@ add list=JP address=135.196.180.0/23 comment=JP-IP
 add list=JP address=135.196.218.0/24 comment=JP-IP
 add list=JP address=135.196.227.0/24 comment=JP-IP
 add list=JP address=136.0.11.0/24 comment=JP-IP
+add list=JP address=136.0.159.0/24 comment=JP-IP
 add list=JP address=136.18.20.0/24 comment=JP-IP
 add list=JP address=136.23.50.0/26 comment=JP-IP
 add list=JP address=136.23.50.128/27 comment=JP-IP
@@ -7665,7 +7684,6 @@ add list=JP address=144.49.102.0/25 comment=JP-IP
 add list=JP address=144.49.200.96/28 comment=JP-IP
 add list=JP address=144.79.51.0/24 comment=JP-IP
 add list=JP address=144.79.120.0/23 comment=JP-IP
-add list=JP address=144.79.161.0/24 comment=JP-IP
 add list=JP address=144.91.128.0/19 comment=JP-IP
 add list=JP address=144.91.160.0/20 comment=JP-IP
 add list=JP address=144.125.44.0/23 comment=JP-IP
@@ -8261,6 +8279,7 @@ add list=JP address=154.18.0.30/31 comment=JP-IP
 add list=JP address=154.18.0.32/29 comment=JP-IP
 add list=JP address=154.18.0.44/30 comment=JP-IP
 add list=JP address=154.18.0.48/30 comment=JP-IP
+add list=JP address=154.18.0.52/31 comment=JP-IP
 add list=JP address=154.18.0.64/28 comment=JP-IP
 add list=JP address=154.18.0.80/29 comment=JP-IP
 add list=JP address=154.18.0.96/31 comment=JP-IP
@@ -8700,6 +8719,7 @@ add list=JP address=158.95.56.0/23 comment=JP-IP
 add list=JP address=158.95.130.0/23 comment=JP-IP
 add list=JP address=158.95.138.0/23 comment=JP-IP
 add list=JP address=158.95.154.0/23 comment=JP-IP
+add list=JP address=158.95.244.0/24 comment=JP-IP
 add list=JP address=158.95.248.0/24 comment=JP-IP
 add list=JP address=158.101.64.0/19 comment=JP-IP
 add list=JP address=158.101.128.0/19 comment=JP-IP
@@ -8751,6 +8771,7 @@ add list=JP address=160.20.140.0/23 comment=JP-IP
 add list=JP address=160.21.0.0/16 comment=JP-IP
 add list=JP address=160.22.40.0/23 comment=JP-IP
 add list=JP address=160.22.143.0/24 comment=JP-IP
+add list=JP address=160.22.203.0/24 comment=JP-IP
 add list=JP address=160.22.228.0/23 comment=JP-IP
 add list=JP address=160.23.0.0/16 comment=JP-IP
 add list=JP address=160.24.0.0/16 comment=JP-IP
@@ -8785,6 +8806,7 @@ add list=JP address=160.231.132.0/22 comment=JP-IP
 add list=JP address=160.233.0.0/16 comment=JP-IP
 add list=JP address=160.236.22.0/23 comment=JP-IP
 add list=JP address=160.236.48.0/23 comment=JP-IP
+add list=JP address=160.236.70.0/23 comment=JP-IP
 add list=JP address=160.237.0.0/16 comment=JP-IP
 add list=JP address=160.238.1.0/24 comment=JP-IP
 add list=JP address=160.238.2.0/23 comment=JP-IP
@@ -8872,7 +8894,6 @@ add list=JP address=162.43.151.0/24 comment=JP-IP
 add list=JP address=162.44.197.0/24 comment=JP-IP
 add list=JP address=162.90.192.0/24 comment=JP-IP
 add list=JP address=162.120.154.0/23 comment=JP-IP
-add list=JP address=162.120.158.0/23 comment=JP-IP
 add list=JP address=162.120.162.0/23 comment=JP-IP
 add list=JP address=162.120.184.16/29 comment=JP-IP
 add list=JP address=162.120.184.80/29 comment=JP-IP
@@ -9262,8 +9283,6 @@ add list=JP address=168.222.126.0/23 comment=JP-IP
 add list=JP address=168.225.3.0/24 comment=JP-IP
 add list=JP address=168.225.5.0/24 comment=JP-IP
 add list=JP address=168.225.38.0/24 comment=JP-IP
-add list=JP address=169.40.9.0/24 comment=JP-IP
-add list=JP address=169.40.10.0/23 comment=JP-IP
 add list=JP address=169.56.6.164/31 comment=JP-IP
 add list=JP address=169.56.6.166/32 comment=JP-IP
 add list=JP address=169.56.6.168/31 comment=JP-IP
@@ -9552,7 +9571,7 @@ add list=JP address=176.103.241.0/24 comment=JP-IP
 add list=JP address=176.103.242.0/24 comment=JP-IP
 add list=JP address=176.113.100.0/22 comment=JP-IP
 add list=JP address=176.118.178.0/24 comment=JP-IP
-add list=JP address=176.119.149.0/24 comment=JP-IP
+add list=JP address=176.119.148.0/23 comment=JP-IP
 add list=JP address=176.119.151.0/24 comment=JP-IP
 add list=JP address=176.124.48.0/22 comment=JP-IP
 add list=JP address=176.125.249.0/24 comment=JP-IP
@@ -9588,6 +9607,7 @@ add list=JP address=178.171.76.0/23 comment=JP-IP
 add list=JP address=178.171.86.0/23 comment=JP-IP
 add list=JP address=178.173.243.0/24 comment=JP-IP
 add list=JP address=178.212.33.0/24 comment=JP-IP
+add list=JP address=178.214.214.0/24 comment=JP-IP
 add list=JP address=178.239.117.0/24 comment=JP-IP
 add list=JP address=178.249.213.0/24 comment=JP-IP
 add list=JP address=178.253.245.0/24 comment=JP-IP
@@ -9603,6 +9623,7 @@ add list=JP address=180.87.4.64/28 comment=JP-IP
 add list=JP address=180.87.4.80/29 comment=JP-IP
 add list=JP address=180.87.4.88/30 comment=JP-IP
 add list=JP address=180.87.4.92/31 comment=JP-IP
+add list=JP address=180.87.4.96/27 comment=JP-IP
 add list=JP address=180.87.28.0/28 comment=JP-IP
 add list=JP address=180.87.28.16/29 comment=JP-IP
 add list=JP address=180.87.28.24/31 comment=JP-IP
@@ -9612,15 +9633,20 @@ add list=JP address=180.87.30.0/26 comment=JP-IP
 add list=JP address=180.87.30.64/28 comment=JP-IP
 add list=JP address=180.87.32.0/25 comment=JP-IP
 add list=JP address=180.87.54.192/29 comment=JP-IP
+add list=JP address=180.87.104.148/31 comment=JP-IP
 add list=JP address=180.87.118.0/23 comment=JP-IP
 add list=JP address=180.87.133.160/28 comment=JP-IP
 add list=JP address=180.87.149.0/30 comment=JP-IP
 add list=JP address=180.87.149.4/31 comment=JP-IP
-add list=JP address=180.87.151.28/30 comment=JP-IP
-add list=JP address=180.87.151.32/31 comment=JP-IP
-add list=JP address=180.87.151.36/30 comment=JP-IP
+add list=JP address=180.87.151.0/27 comment=JP-IP
+add list=JP address=180.87.151.50/31 comment=JP-IP
 add list=JP address=180.87.151.56/30 comment=JP-IP
-add list=JP address=180.87.154.0/23 comment=JP-IP
+add list=JP address=180.87.154.0/29 comment=JP-IP
+add list=JP address=180.87.154.8/30 comment=JP-IP
+add list=JP address=180.87.154.32/27 comment=JP-IP
+add list=JP address=180.87.154.64/26 comment=JP-IP
+add list=JP address=180.87.154.128/25 comment=JP-IP
+add list=JP address=180.87.155.0/24 comment=JP-IP
 add list=JP address=180.87.158.0/24 comment=JP-IP
 add list=JP address=180.87.159.0/25 comment=JP-IP
 add list=JP address=180.87.159.128/27 comment=JP-IP
@@ -9629,7 +9655,7 @@ add list=JP address=180.87.159.176/29 comment=JP-IP
 add list=JP address=180.87.159.184/31 comment=JP-IP
 add list=JP address=180.87.159.188/30 comment=JP-IP
 add list=JP address=180.87.159.192/28 comment=JP-IP
-add list=JP address=180.87.168.228/31 comment=JP-IP
+add list=JP address=180.87.169.134/31 comment=JP-IP
 add list=JP address=180.87.180.0/23 comment=JP-IP
 add list=JP address=180.92.16.0/20 comment=JP-IP
 add list=JP address=180.92.32.0/19 comment=JP-IP
@@ -9904,6 +9930,10 @@ add list=JP address=188.172.202.0/24 comment=JP-IP
 add list=JP address=188.209.159.0/24 comment=JP-IP
 add list=JP address=188.212.132.0/24 comment=JP-IP
 add list=JP address=188.220.80.0/22 comment=JP-IP
+add list=JP address=188.221.227.0/24 comment=JP-IP
+add list=JP address=188.221.240.0/24 comment=JP-IP
+add list=JP address=188.221.247.0/24 comment=JP-IP
+add list=JP address=188.221.254.0/24 comment=JP-IP
 add list=JP address=188.253.0.0/24 comment=JP-IP
 add list=JP address=188.253.109.0/24 comment=JP-IP
 add list=JP address=188.253.118.0/23 comment=JP-IP
@@ -10110,6 +10140,7 @@ add list=JP address=192.172.242.0/23 comment=JP-IP
 add list=JP address=192.173.95.0/24 comment=JP-IP
 add list=JP address=192.173.102.0/24 comment=JP-IP
 add list=JP address=192.174.128.0/17 comment=JP-IP
+add list=JP address=192.179.42.0/24 comment=JP-IP
 add list=JP address=192.188.73.0/24 comment=JP-IP
 add list=JP address=192.188.74.0/23 comment=JP-IP
 add list=JP address=192.188.76.0/22 comment=JP-IP
@@ -10170,14 +10201,6 @@ add list=JP address=193.82.160.0/19 comment=JP-IP
 add list=JP address=193.104.4.0/24 comment=JP-IP
 add list=JP address=193.104.96.0/24 comment=JP-IP
 add list=JP address=193.104.177.0/24 comment=JP-IP
-add list=JP address=193.106.48.0/25 comment=JP-IP
-add list=JP address=193.106.48.128/26 comment=JP-IP
-add list=JP address=193.106.48.192/28 comment=JP-IP
-add list=JP address=193.106.48.208/31 comment=JP-IP
-add list=JP address=193.106.48.211/32 comment=JP-IP
-add list=JP address=193.106.48.212/30 comment=JP-IP
-add list=JP address=193.106.48.216/29 comment=JP-IP
-add list=JP address=193.106.48.224/27 comment=JP-IP
 add list=JP address=193.106.49.0/27 comment=JP-IP
 add list=JP address=193.106.49.32/31 comment=JP-IP
 add list=JP address=193.106.49.35/32 comment=JP-IP
@@ -10186,6 +10209,7 @@ add list=JP address=193.106.49.40/29 comment=JP-IP
 add list=JP address=193.106.49.48/28 comment=JP-IP
 add list=JP address=193.106.49.64/26 comment=JP-IP
 add list=JP address=193.106.49.128/25 comment=JP-IP
+add list=JP address=193.106.51.0/24 comment=JP-IP
 add list=JP address=193.109.252.0/24 comment=JP-IP
 add list=JP address=193.111.30.0/23 comment=JP-IP
 add list=JP address=193.114.0.0/18 comment=JP-IP
@@ -10242,6 +10266,7 @@ add list=JP address=194.114.136.0/24 comment=JP-IP
 add list=JP address=194.116.227.0/24 comment=JP-IP
 add list=JP address=194.117.52.128/26 comment=JP-IP
 add list=JP address=194.126.219.0/24 comment=JP-IP
+add list=JP address=194.127.166.0/24 comment=JP-IP
 add list=JP address=194.127.177.0/24 comment=JP-IP
 add list=JP address=194.127.181.0/24 comment=JP-IP
 add list=JP address=194.127.183.0/24 comment=JP-IP
@@ -10358,6 +10383,7 @@ add list=JP address=198.232.16.0/24 comment=JP-IP
 add list=JP address=198.232.56.0/24 comment=JP-IP
 add list=JP address=198.255.2.48/29 comment=JP-IP
 add list=JP address=199.20.39.0/24 comment=JP-IP
+add list=JP address=199.30.90.0/24 comment=JP-IP
 add list=JP address=199.38.235.0/24 comment=JP-IP
 add list=JP address=199.43.18.0/24 comment=JP-IP
 add list=JP address=199.47.197.0/24 comment=JP-IP
@@ -11623,6 +11649,7 @@ add list=JP address=206.54.7.0/24 comment=JP-IP
 add list=JP address=206.54.8.0/24 comment=JP-IP
 add list=JP address=206.54.16.0/20 comment=JP-IP
 add list=JP address=206.57.22.128/26 comment=JP-IP
+add list=JP address=206.63.136.0/24 comment=JP-IP
 add list=JP address=206.83.104.0/24 comment=JP-IP
 add list=JP address=206.83.106.0/24 comment=JP-IP
 add list=JP address=206.83.109.0/24 comment=JP-IP
@@ -11701,6 +11728,8 @@ add list=JP address=208.91.109.0/24 comment=JP-IP
 add list=JP address=208.99.8.0/22 comment=JP-IP
 add list=JP address=208.111.48.0/21 comment=JP-IP
 add list=JP address=208.113.27.0/24 comment=JP-IP
+add list=JP address=208.122.48.64/26 comment=JP-IP
+add list=JP address=208.122.49.0/24 comment=JP-IP
 add list=JP address=208.127.32.0/25 comment=JP-IP
 add list=JP address=208.127.32.128/26 comment=JP-IP
 add list=JP address=208.127.32.192/27 comment=JP-IP
@@ -11751,7 +11780,7 @@ add list=JP address=209.8.177.24/30 comment=JP-IP
 add list=JP address=209.9.117.8/29 comment=JP-IP
 add list=JP address=209.9.117.16/28 comment=JP-IP
 add list=JP address=209.17.64.0/19 comment=JP-IP
-add list=JP address=209.33.144.0/22 comment=JP-IP
+add list=JP address=209.33.144.0/23 comment=JP-IP
 add list=JP address=209.33.168.0/21 comment=JP-IP
 add list=JP address=209.40.108.66/32 comment=JP-IP
 add list=JP address=209.51.168.48/29 comment=JP-IP
@@ -12080,6 +12109,7 @@ add list=JP address=213.210.40.0/24 comment=JP-IP
 add list=JP address=213.210.57.0/24 comment=JP-IP
 add list=JP address=213.210.63.0/24 comment=JP-IP
 add list=JP address=213.218.211.0/24 comment=JP-IP
+add list=JP address=213.218.254.0/24 comment=JP-IP
 add list=JP address=213.227.170.0/24 comment=JP-IP
 add list=JP address=213.232.112.0/24 comment=JP-IP
 add list=JP address=216.6.52.0/28 comment=JP-IP
@@ -12087,6 +12117,7 @@ add list=JP address=216.6.54.0/28 comment=JP-IP
 add list=JP address=216.8.0.0/19 comment=JP-IP
 add list=JP address=216.23.81.0/24 comment=JP-IP
 add list=JP address=216.23.82.0/23 comment=JP-IP
+add list=JP address=216.23.84.246/32 comment=JP-IP
 add list=JP address=216.23.85.171/32 comment=JP-IP
 add list=JP address=216.23.100.0/22 comment=JP-IP
 add list=JP address=216.23.108.0/23 comment=JP-IP
@@ -12130,7 +12161,7 @@ add list=JP address=216.246.111.0/24 comment=JP-IP
 add list=JP address=216.246.125.0/24 comment=JP-IP
 add list=JP address=216.247.96.0/23 comment=JP-IP
 add list=JP address=216.247.104.0/23 comment=JP-IP
-add list=JP address=216.247.110.0/23 comment=JP-IP
+add list=JP address=216.247.110.0/24 comment=JP-IP
 add list=JP address=216.255.224.0/20 comment=JP-IP
 add list=JP address=217.8.217.0/24 comment=JP-IP
 add list=JP address=217.19.2.0/24 comment=JP-IP
@@ -12265,7 +12296,26 @@ add list=JP address=221.133.64.0/18 comment=JP-IP
 add list=JP address=221.170.0.0/15 comment=JP-IP
 add list=JP address=221.184.0.0/13 comment=JP-IP
 add list=JP address=221.240.0.0/12 comment=JP-IP
-add list=JP address=222.0.0.0/12 comment=JP-IP
+add list=JP address=222.0.0.0/16 comment=JP-IP
+add list=JP address=222.1.0.0/24 comment=JP-IP
+add list=JP address=222.1.1.0/26 comment=JP-IP
+add list=JP address=222.1.1.64/27 comment=JP-IP
+add list=JP address=222.1.1.96/29 comment=JP-IP
+add list=JP address=222.1.1.104/31 comment=JP-IP
+add list=JP address=222.1.1.106/32 comment=JP-IP
+add list=JP address=222.1.1.108/30 comment=JP-IP
+add list=JP address=222.1.1.112/28 comment=JP-IP
+add list=JP address=222.1.1.128/25 comment=JP-IP
+add list=JP address=222.1.2.0/23 comment=JP-IP
+add list=JP address=222.1.4.0/22 comment=JP-IP
+add list=JP address=222.1.8.0/21 comment=JP-IP
+add list=JP address=222.1.16.0/20 comment=JP-IP
+add list=JP address=222.1.32.0/19 comment=JP-IP
+add list=JP address=222.1.64.0/18 comment=JP-IP
+add list=JP address=222.1.128.0/17 comment=JP-IP
+add list=JP address=222.2.0.0/15 comment=JP-IP
+add list=JP address=222.4.0.0/14 comment=JP-IP
+add list=JP address=222.8.0.0/13 comment=JP-IP
 add list=JP address=222.144.0.0/13 comment=JP-IP
 add list=JP address=222.158.0.0/15 comment=JP-IP
 add list=JP address=222.224.0.0/14 comment=JP-IP
